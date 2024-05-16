@@ -123,11 +123,6 @@ namespace RemotePlugins
                 Logger.LogInfo("\t" + file);
             }
 
-            if (!checkedFilesStatus.ContainsSitDll)
-            {
-                Logger.LogError("StayInTarkov.dll not found. Skipping");
-                return null;
-            }
 
             return checkedFilesStatus;
         }
