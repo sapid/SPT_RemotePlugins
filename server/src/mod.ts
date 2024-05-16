@@ -491,7 +491,7 @@ class RemotePlugins implements IPreAkiLoadMod, IPostAkiLoadMod, IPostDBLoadMod {
         return {
             Debug: false,
             ClientOptions: {
-                SyncType: Synchronization.DeleteAndSync
+                SyncType: Synchronization.UpdateOnly
             }
         }
     }
